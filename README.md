@@ -70,6 +70,8 @@ npm run build
 # Preview production build
 npm run preview
 ```
+  **Preview Image**:
+  ![Token Trading Table Preview](./image.png)
 
 ## 📊 Data Included
 
@@ -312,6 +314,3 @@ npm run dev
 
 **Created**: November 22, 2024  
 **Version**: 1.0.0
-
-**Preview Image**:
-![Token Trading Table Preview](./image.png)
