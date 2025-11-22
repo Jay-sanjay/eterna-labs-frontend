@@ -1,4 +1,4 @@
-# Token Trading Table
+`# Token Trading Table
 
 A modern, responsive React-based cryptocurrency trading table application with advanced sorting, searching, and real-time data visualization.
 
@@ -314,3 +314,6 @@ npm run dev
 **Version**: 1.0.0
 
 Made with ❤️ by the Eterna Labs team
+
+**Preview Image**:
+![Token Trading Table Preview](./image.png)
