@@ -1,0 +1,104 @@
+.token-row {
+  height: 70px;
+}
+
+.token-row td {
+  padding: 14px 12px;
+  vertical-align: middle;
+}
+
+.rank-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.token-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.token-symbol {
+  font-weight: 700;
+  color: #2c3e50;
+  font-size: 0.95rem;
+}
+
+.token-name {
+  color: #7f8c8d;
+  font-size: 0.8rem;
+}
+
+.price {
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 0.95rem;
+}
+
+.change {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.change.positive {
+  color: #27ae60;
+  background-color: #d5f4e6;
+}
+
+.change.negative {
+  color: #e74c3c;
+  background-color: #fadbd8;
+}
+
+.change-icon {
+  font-size: 0.75rem;
+}
+
+.volume,
+.marketcap,
+.supply {
+  color: #34495e;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .token-row {
+    height: 60px;
+  }
+
+  .token-row td {
+    padding: 10px 6px;
+  }
+
+  .rank-badge {
+    width: 28px;
+    height: 28px;
+    font-size: 0.8rem;
+  }
+
+  .price,
+  .volume,
+  .marketcap,
+  .supply {
+    font-size: 0.85rem;
+  }
+
+  .change {
+    padding: 3px 6px;
+    font-size: 0.8rem;
+  }
+}
