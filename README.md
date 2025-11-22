@@ -4,7 +4,7 @@ A modern, responsive React-based cryptocurrency trading table application with a
 
 ## 📸 Application Screenshot
 
-![Token Trading Table Screenshot](./screenshot.svg)
+![Token Trading Table Screenshot](./screenshot.png)
 
 *The Token Trading Table displays cryptocurrency data with real-time updates, sortable columns, and professional styling.*
 
