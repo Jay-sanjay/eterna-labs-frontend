@@ -313,7 +313,5 @@ npm run dev
 **Created**: November 22, 2024  
 **Version**: 1.0.0
 
-Made with ❤️ by the Eterna Labs team
-
 **Preview Image**:
 ![Token Trading Table Preview](./image.png)
